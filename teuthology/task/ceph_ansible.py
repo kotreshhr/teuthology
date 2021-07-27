@@ -404,7 +404,6 @@ class CephAnsible(Task):
             run.Raw('cd ~/ceph-ansible'),
             run.Raw(';'),
             'virtualenv',
-            run.Raw('--system-site-packages'),
             run.Raw('--python=python3'),
             'venv',
             run.Raw(';'),
